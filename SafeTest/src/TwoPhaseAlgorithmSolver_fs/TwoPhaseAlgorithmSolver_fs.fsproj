@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Utils.fs" />
+    <Compile Include="ArrayHelpers.fs" />
+    <Compile Include="CoordCube.fs" />
+    <Compile Include="TwoPhaseConstants.fs" />
+    <Compile Include="TwoPhaseHelpers.fs" />
+    <Compile Include="TwoPhaseMoveTables.fs" />
+    <Compile Include="TwoPhasePruningTables.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RubiksCubeLib\RubiksCubeLib.csproj" />
+    <ProjectReference Include="..\RubiksCubeLib_fs\RubiksCubeLib_fs.fsproj" />
+  </ItemGroup>
+
+</Project>

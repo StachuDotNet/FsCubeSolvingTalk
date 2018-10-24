@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="CubeFlag.fs" />
+    <Compile Include="FacePosition.fs" />
+    <Compile Include="CubeFlagService.fs" />
+    <Compile Include="Orientation.fs" />
+    <Compile Include="CollectionMethods.fs" />
+    <Compile Include="Face.fs" />
+    <Compile Include="UniCube.fs" />
+    <Compile Include="SolutionErrorEventArgs.fs" />
+    <Compile Include="CubePosition.fs" />
+    <Compile Include="Cube.fs" />
+    <Compile Include="LayerMove.fs" />
+    <Compile Include="Algorithm.fs" />
+    <Compile Include="SolutionStepCompletedEventArgs.fs" />
+    <Compile Include="Patterns\PatternItem.fs" />
+    <Compile Include="Patterns\CommonPositions.fs" />
+    <Compile Include="Patterns\PatternItemParser.fs" />
+    <Compile Include="Patterns\Pattern.fs" />
+    <Compile Include="Patterns\PatternFilter.fs" />
+    <Compile Include="Patterns\PatternTable.fs" />
+    <Compile Include="Rubik.fs" />
+    <Compile Include="TestScenario.fs" />
+    <Compile Include="Solvability.fs" />
+  </ItemGroup>
+</Project>

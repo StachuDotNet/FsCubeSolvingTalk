@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RubiksCubeLib\RubiksCubeLib.csproj" />
+    <ProjectReference Include="..\RubiksCubeLib_fs\RubiksCubeLib_fs.fsproj" />
+    <ProjectReference Include="..\TwoPhaseAlgorithmSolver_fs\TwoPhaseAlgorithmSolver_fs.fsproj" />
+  </ItemGroup>
+
+</Project>
